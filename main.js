@@ -54,7 +54,7 @@ const hocusPocus = {
 	/**
 	* Animations prédéfinies en exemple
 	*/ 
-	animations : {
+	keyframes : {
 		scaleIn : [
 			{ transform: "scale(0)", opacity: "1" },
 			{ transform: "scale(1)", opacity: "1" }
@@ -73,24 +73,5 @@ const hocusPocus = {
 		]
 	}
 }
-
-/* hocusPocus.create('div.hocus', true);
-hocusPocus.create('div.pocus', true);
-
-hocusPocus.html('div.hocus', 'hocus');
-hocusPocus.html('div.pocus', 'pocus');
-
-console.log(hocusPocus.html('div.pocus'));
-
-hocusPocus.css('div', {
-	'color': 'crimson',
-	'background': 'navy',
-	'padding': "1em"
-});
-
-hocusPocus.anim('div', hocusPocus.animations.scaleIn, 500, 1, "both")
-//hocusPocus.anim('div', hocusPocus.animations.scaleIn, 500, Infinity)
-
-console.log(hocusPocus.get('div')) */
 
 export default hocusPocus;
